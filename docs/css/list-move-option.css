@@ -1,0 +1,80 @@
+.list-move-option tr td{
+    padding: 10px;
+    margin: 10px;
+    transition: 1s;
+    border:3px solid #666;
+}
+.list-move-option tr.success td{
+    border:3px solid green;
+}
+
+.list-move-option tr.danger td{
+    border:3px solid red;
+}
+
+.list-move-option tr.success td .text-option-to-move::after,
+.list-move-option tr.danger td .text-option-to-move::after{
+    content: "Correcto";
+    display: block;
+    padding: 5px;
+    margin: 20px 0;
+    background-color: green;
+    color: #fff;
+    font-size: .8rem;
+}
+.list-move-option tr.danger td .text-option-to-move::after{
+    background-color: red;
+    content: "Incorrecto";
+}
+
+.list-move-option tr td:first-child{
+    width: 20%;
+    text-align: center;
+
+}
+
+.list-move-option .text-option-to-move{
+    font-weight: bold;
+}
+
+.list-move-option button.btn-move-option{
+    background-color: rgb(235, 235, 235);
+    color: rgb(41, 41, 41);
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    font-size: .9rem;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.list-move-option .drag-and-drop-element-blue {
+    background-color: #224f65;
+}
+
+.list-move-option .drag-and-drop-element-blue td{
+    background-color: white;
+    border:3px solid white;
+}
+
+.list-move-option .drag-and-drop-element-blue td:first-child{
+    background-color: #224f65;
+    color: white;
+    border:3px solid #224f65;
+}
+
+
+.list-move-option .drag-and-drop-element-blue button.btn-move-option{
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    transition: .5s;
+}
+
+.list-move-option .drag-and-drop-element-blue button.btn-move-option:focus,
+.list-move-option .drag-and-drop-element-blue button.btn-move-option:hover{
+    background-color: var(--main-font-color);
+    color: black;
+}

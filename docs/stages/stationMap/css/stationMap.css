@@ -1,0 +1,156 @@
+.stage_stationMap{
+    align-items:center;
+    display: flex;
+    justify-content: center;
+}
+
+.stage_stationMap{
+    
+}
+
+.mapOfStations{
+    background-color: rgb(29, 172, 24);
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    transition: 1s;
+}
+.mapOfStations.horizontal{
+    transform: rotate(-90deg);
+}
+.mapOfStations .bus{
+    background-color: yellow;
+    border:1px solid ;
+    border-right: 10px solid;
+    height: 2.2%;
+    position: absolute;
+    top: 25.5%;
+    left: 53%;
+    width: 8%;
+    z-index: 10;
+}
+.mapOfStations .bus.horizontal-right{
+    transform: rotate(0deg);
+}
+.mapOfStations .bus.horizontal-left{
+    transform: rotate(180deg);
+}
+.mapOfStations .bus.vertical-bottom{
+    transform: rotate(90deg);
+}
+.mapOfStations .bus.vertical-top{
+    transform: rotate(270deg);
+}
+.mapOfStations img.img-map{
+    width: 100%;
+}
+.station-base{
+   /*  border: 2px solid rgb(116, 116, 116) ; */
+    position: absolute;
+    z-index: 12;
+    transition: 1s;
+}
+
+.horizontal .station-base {
+    transform:rotate(90deg);
+}
+.station-base .display-station{
+    background-color: rgba(0, 0, 0, 0.883);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-weight:normal;
+    font-size: .7rem;
+    padding: 5px;
+}
+
+.station-base .display-station-success{
+    background-color: rgba(0, 124, 0,1);
+}
+.station-base .display-station-danger{
+    background-color: rgb(179, 0, 0);
+}
+
+
+
+
+.station-1{
+    width: 82%;
+    left: 10%;
+    height: 21%;
+    top: 4.5%;
+    display: block;
+}
+
+.horizontal  .station-1{
+    width: 42%;
+    left: 37%;
+    height: 27%;
+    top: -0.5%;
+    display: block;
+}
+
+.station-2{
+    width: 38%;
+    left: 2%;
+    height: 26%;
+    top: 36%;
+}
+
+.horizontal .station-2{
+    width: 41%;
+    left: 2%;
+    height: 17%;
+    top: 39%;
+}
+
+.station-3{
+    width: 49%;
+    left: 50%;
+    height: 29%;
+    top: 41%;
+}
+
+.horizontal .station-3{
+  
+    width: 44%;
+    left: 58%;
+    height: 19%;
+    top: 45%;
+}
+
+
+.station-4{
+    width: 54%;
+    left: 20%;
+    height: 24%;
+    top: 74%;
+}
+
+.horizontal .station-4{
+    width: 52%;
+    left: 35%;
+    height: 34%;
+    top: 66%;
+}
+
+@media (min-width: 500px) and (orientation: portrait){
+    .station-base .display-station{
+   
+        font-weight:normal;
+        font-size: 1rem;
+    }
+}
+
+@media (min-height: 500px) and (orientation: landscape){
+    .station-base .display-station{
+   
+        font-weight:normal;
+        font-size: 1rem;
+    }
+}
+
+

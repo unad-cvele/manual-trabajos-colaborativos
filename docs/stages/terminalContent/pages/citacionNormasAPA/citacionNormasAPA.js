@@ -10,7 +10,7 @@ class terminalContentClass_citacionNormasAPA extends generalPage{
   content(){
       return `
       <h2>Citación (Normas APA)</h2>
-      <video class="responsive" src="./images/aspectos-tecnicos/propiedad-intelectual-y-referenciacion/citacionNormasAPA.mp4" controls="" controlslist="nodownload"></video>
+      <iframe class="iframe-video-principal" src="https://www.youtube.com/embed/3n0K138waCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div class="text-center">
         <button class="btn-general" onclick="stages_terminalContent.menu.back()">Atrás</button>
         <button class="btn-general" onclick="stages_terminalContent.menu.next()">Siguiente</button>

@@ -10,7 +10,7 @@ class terminalContentClass_sec_2_Video_5 extends generalPage{
   content(){
       return `
       <h2>Finalización del reto</h2>
-      <video class="responsive" src="./images/aspectos-tecnicos/gamificacion/sec_2_Video_5.mp4" controls="" controlslist="nodownload"></video>
+      <iframe class="iframe-video-principal" src="https://www.youtube.com/embed/bA_Zdbkbh2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div class="text-center">
         <button class="btn-general" onclick="stages_terminalContent.menu.back()"">Atrás</button>
         <button class="btn-general" onclick="stages_terminalContent.menu.next()"">Siguiente</button>

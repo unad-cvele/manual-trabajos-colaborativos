@@ -10,7 +10,7 @@ class terminalContentClass_titulacionyTablaDeContenido extends generalPage{
   content(){
       return `
       <h2>Titulación y Tabla de Contenido</h2>
-      <video class="responsive" src="./images/aspectos-tecnicos/aspectos-generales/titulacionyTabladeContenido.mp4" controls="" controlslist="nodownload"></video>
+      <iframe class="iframe-video-principal" src="https://www.youtube.com/embed/RhlGr_5Z05o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div class="text-center">
         <button class="btn-general" onclick="stages_terminalContent.menu.back()"">Atrás</button>
         <button class="btn-general" onclick="stages_terminalContent.menu.next()"">Siguiente</button>

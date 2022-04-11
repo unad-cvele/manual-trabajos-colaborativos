@@ -13,7 +13,7 @@ class terminalContentClass_lineamientosGenerales extends generalPage{
       <div class="text-general">
         <p>Para la elaboración de los trabajos académicos en la UNAD, se deben tener en cuenta los siguientes aspectos técnicos formales:</p>
       </div>
-      <video class="responsive" src="./images/aspectos-tecnicos/aspectos-generales/lineamientosGenerales.mp4" controls="" controlslist="nodownload"></video>
+      <iframe class="iframe-video-principal" src="https://www.youtube.com/embed/AI3v3gTUuqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div class="text-center">
         <button class="btn-general" onclick="stages_terminalContent.menu.back()"">Atrás</button>
         <button class="btn-general" onclick="stages_terminalContent.menu.next()"">Siguiente</button>

@@ -10,7 +10,7 @@ class terminalContentClass_introduccionPropiedadIntelectual extends generalPage{
   content(){
       return `
       <h2>Propiedad Intelectual y Referenciación</h2>
-      <video class="responsive" src="./images/aspectos-tecnicos/propiedad-intelectual-y-referenciacion/introduccion.mp4" controls="" controlslist="nodownload"></video>
+      <iframe class="iframe-video-principal" src="https://www.youtube.com/embed/koyqyi2W2u0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
       
       <div class="text-center">

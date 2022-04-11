@@ -21,7 +21,7 @@ class introductionClass extends generalStage{
         ${customStyle}
         <h1>Introducción al Manual de Trabajos Académicos de la UNAD.
         </h1>
-        <video  id="stage_introduction_video" class="principal" src="./images/introduccion/introduccion.mp4" controls controlsList="nodownload"  ></video>
+        <iframe class="iframe-video-principal" src="https://www.youtube.com/embed/7ScuqaU_OC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class="text-general">
 
             <h3>Introducción</h3>

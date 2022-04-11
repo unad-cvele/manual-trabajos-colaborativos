@@ -10,7 +10,7 @@ class terminalContentClass_introducccion extends generalPage{
   content(){
       return `
       <h2>Introducción</h2>
-      <video class="responsive" src="./images/aspectos-tecnicos/aspectos-generales/introduccion.mp4" controls="" controlslist="nodownload"></video>
+      <iframe class="iframe-video-principal" src="https://www.youtube.com/embed/9z-2WO_Ac-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div class="text-center">
         <button class="btn-general" onclick="stages_terminalContent.menu.next()"">Siguiente</button>
         <button class="btn-general btn-show-content" onclick="stages_terminalContent.menu.showContentInText(this,'none')">Mostrar en texto</button>

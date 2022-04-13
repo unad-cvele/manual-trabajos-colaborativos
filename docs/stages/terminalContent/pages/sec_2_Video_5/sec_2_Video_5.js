@@ -26,7 +26,7 @@ class terminalContentClass_sec_2_Video_5 extends generalPage{
       <button class="btn-acordeon" onclick="stages_terminalContent.acordeonList.show(this);">Ejemplos de casos especiales</button>
           <div class="text-acordeon">
             <div class="cards">
-              <a href="#lineamientosGenerales" onclick="window.open('./images/aspectos-tecnicos/propiedad-intelectual-y-referenciacion/referenciacion-ejemplos-casos-especiales.pdf','','location=yes,scrollbars=yes,resizable=yes,width=1000,height=700');return false;">
+              <a href="https://drive.google.com/file/d/16KnJQurAyhQYyuFT3U76j-1oPGPlXN30/view?usp=sharing" target="_blank" onclick="window.open('https://drive.google.com/file/d/16KnJQurAyhQYyuFT3U76j-1oPGPlXN30/view?usp=sharing','','location=yes,scrollbars=yes,resizable=yes,width=1000,height=700');return false;">
                   <figure class="card">
                       
                           <img src="./images/aspectos-tecnicos/ejemplosReferenciacion.jpg" alt="Ejemplos de referenciación">

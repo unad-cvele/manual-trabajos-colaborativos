@@ -16,7 +16,7 @@ class terminalContentClass_infograficasSobreCitacion extends generalPage{
                 <button class="btn-acordeon" onclick="stages_terminalContent.acordeonList.show(this);">Comunicaciones especiales</button>
                 <div class="text-acordeon">
                     <div class="cards">
-                         <a href="#lineamientosGenerales" onclick="window.open('./images/aspectos-tecnicos/propiedad-intelectual-y-referenciacion/citacion-de-comunicaciones-personales.pdf','','location=yes,scrollbars=yes,resizable=yes,width=1000,height=700');return false;">
+                         <a href="https://drive.google.com/file/d/19DB0AQ8zb0h3pzNwK1F0b1Xzfk5f4WA5/view?usp=sharing" target="_blank" onclick="window.open('https://drive.google.com/file/d/19DB0AQ8zb0h3pzNwK1F0b1Xzfk5f4WA5/view?usp=sharing','','location=yes,scrollbars=yes,resizable=yes,width=1000,height=700');return false;">
                             <figure class="card">
                                 
                                     <img src="./images/aspectos-tecnicos/propiedad-intelectual-y-referenciacion/portadaComunicacionesEspeciales.jpg" alt="Citación Textual">
@@ -34,7 +34,7 @@ class terminalContentClass_infograficasSobreCitacion extends generalPage{
                 <button class="btn-acordeon" onclick="stages_terminalContent.acordeonList.show(this);">Paráfrasis</button>
                 <div class="text-acordeon">
                     <div class="cards">
-                         <a href="#lineamientosGenerales" onclick="window.open('./images/aspectos-tecnicos/propiedad-intelectual-y-referenciacion/citacion-parafrasis.pdf','','location=yes,scrollbars=yes,resizable=yes,width=1000,height=700');return false;">
+                         <a href="https://drive.google.com/file/d/1nd_H20gJ3-CxZ7hLiIbTGMWhThQ204-L/view?usp=sharing" target="_blank" onclick="window.open('https://drive.google.com/file/d/1nd_H20gJ3-CxZ7hLiIbTGMWhThQ204-L/view?usp=sharing','','location=yes,scrollbars=yes,resizable=yes,width=1000,height=700');return false;">
                             <figure class="card">
                                 
                                 <img src="./images/aspectos-tecnicos/propiedad-intelectual-y-referenciacion/portadaParafrasis.jpg" alt="Citación Paráfrasis">
@@ -51,7 +51,7 @@ class terminalContentClass_infograficasSobreCitacion extends generalPage{
                 <button class="btn-acordeon" onclick="stages_terminalContent.acordeonList.show(this);">Textual</button>
                 <div class="text-acordeon">
                     <div class="cards">
-                         <a href="#lineamientosGenerales" onclick="window.open('./images/aspectos-tecnicos/propiedad-intelectual-y-referenciacion/citacion-textual.pdf','','location=yes,scrollbars=yes,resizable=yes,width=1000,height=700');return false;">
+                         <a href="https://drive.google.com/file/d/1-yJZqhTnNap1OS5VFw8BSMU1tDAlxOq3/view?usp=sharing" target="_blank" onclick="window.open('https://drive.google.com/file/d/1-yJZqhTnNap1OS5VFw8BSMU1tDAlxOq3/view?usp=sharing','','location=yes,scrollbars=yes,resizable=yes,width=1000,height=700');return false;">
                             <figure class="card">
                                 
                                     <img src="./images/aspectos-tecnicos/propiedad-intelectual-y-referenciacion/portadaCitacionTextual.jpg" alt="Citación Textual">

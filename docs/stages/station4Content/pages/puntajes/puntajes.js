@@ -22,7 +22,7 @@ class station4ContentClass_puntajes extends generalPage{
     let totalPoints=0;
     let messageTotalPoints='';
 
-    let urlDescargaDPremios="./images/premios/estacion-4.zip";
+    let urlDescargaDPremios="https://drive.google.com/file/d/1bWQjIE4N56hVVkNV42a8IG4uzOaNsLOM/view?usp=sharing";
 
     let mensajeBotonPremios="Descargar premio de la estación";
 

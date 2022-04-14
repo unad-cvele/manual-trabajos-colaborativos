@@ -10,7 +10,7 @@ class station3ContentClass_explicacion extends generalPage{
   content(){
       return `
       <h2>Anteproyecto de Trabajos y Trabajos Investigativos</h2>
-      <video class="responsive" src="./images/trabajos-y-proyectos-investigativos/Anteproyecto-de-Trabajos-y-Trabajos-Investigativos.mp4" controls="" controlslist="nodownload"></video>
+      <iframe class="iframe-video-principal" src="https://www.youtube.com/embed/epHQY6ZNXBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div class="text-center">
         <button class="btn-general btn-next" onclick="stage.activity('menu_back')">Atrás</button>
         <button class="btn-general btn-next" onclick="stage.activity('menu_next')">Siguiente</button>

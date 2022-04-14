@@ -10,7 +10,7 @@ class station2ContentClass_introducccion extends generalPage{
   content(){
       return `
       <h2>Introducción</h2>
-      <video class="responsive" src="./images/trabajos-escritos/introduccion.mp4" controls="" controlslist="nodownload"></video>
+      <iframe class="iframe-video-principal" src="https://www.youtube.com/embed/JQwwRVsK9KQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div class="text-center">
         <button class="btn-general btn-next" onclick="stage.activity('menu_next')">Siguiente</button>
         <button class="btn-general btn-show-content" onclick="stage.activity('menu_showContentInText_none',this)">Mostrar en texto</button>

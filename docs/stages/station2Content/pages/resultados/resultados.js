@@ -10,7 +10,7 @@ class station2ContentClass_resultados extends generalPage{
   content(){
       return `
       <h2>Resultados</h2>
-      <video class="responsive" src="./images/trabajos-escritos/resultados.mp4" controls="" controlslist="nodownload"></video>
+      <iframe class="iframe-video-principal" src="https://www.youtube.com/embed/mLJnPXde-eA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div class="text-center">
         <button class="btn-general btn-back" onclick="stage.activity('menu_back')">Atrás</button>
         <button class="btn-general btn-next" onclick="stage.activity('menu_next')">Siguiente</button>
